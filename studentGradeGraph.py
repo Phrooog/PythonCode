@@ -45,6 +45,5 @@ ax.set_ylabel('Score Recieved(%)')
 ax.set_title('Student Scores')
 
 #saving graph in Google Drive
-MY_PATH = '/content/drive/MyDrive/datavis/'
 filename = MY_PATH + "studentGrade_test.png"
 fig.savefig(filename, dpi=400, bbox_inches="tight")
